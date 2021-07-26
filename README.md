@@ -33,3 +33,11 @@ cepstrum are the cepstral coefficients. Representing the frequencies in terms of
 and the cepstral coefficients to mel-frequency cepstral coefficients (MFCCs). The cepstrum
 represents the rate of change in the different spectrum bands, and the coefficients are widely
 used in machine learning algorithms for sound processing.
+
+Chroma: An octave is a musical interval or the distance between one note and another, which is twice
+its frequency: A3 (220 Hz) - A4 (440 Hz) – A5 (880 Hz). An octave is divided into 12 equal
+intervals, and each interval is a different note. The intervals are called chromas or semitones
+and are powerful representations of audio signals. The calculation of the chromagram is similar
+to the spectrogram using short-time Fourier transforms, but semitones/pitch classes are used
+instead of absolute frequencies to represent the signal. The unique representation can show
+musical properties of the signal which is not picked up by the spectrogram.
